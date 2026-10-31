@@ -1,0 +1,10 @@
+{
+  "name": "Cognivanta Learning Universe",
+  "short_name": "Cognivanta",
+  "description": "Turn notes into concepts, recall challenges, and interactive learning worlds.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060911",
+  "theme_color": "#07111f",
+  "icons": []
+}
