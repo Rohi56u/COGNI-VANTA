@@ -20,6 +20,7 @@ export default defineConfig({
   },
   server: {
     port: 5173,
+    allowedHosts: ['4173-ir0s2xq89bolq37junkrb-e54e7502.sg2.manus.computer'],
     proxy: {
       '/api': {
         target: 'http://localhost:3000',
