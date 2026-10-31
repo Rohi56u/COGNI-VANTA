@@ -10,6 +10,7 @@ Cognivanta is an AI-powered learning universe that transforms handwritten notes,
 [![FastAPI](https://img.shields.io/badge/FastAPI-AI%20Service-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Express](https://img.shields.io/badge/Express-5-000000?logo=express&logoColor=white)](https://expressjs.com/)
 [![SQLite](https://img.shields.io/badge/SQLite-WAL-003B57?logo=sqlite&logoColor=white)](https://sqlite.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## The learning loop
 
@@ -44,6 +45,18 @@ flowchart LR
     F --> W[Concept Graph + Subject Worlds]
 ```
 
+## Demo
+
+> Watch Cognivanta turn study notes into connected concepts, recall challenges, and interactive learning worlds.
+
+The repository includes a production-ready [demo walkthrough script](docs/DEMO_WALKTHROUGH.md) with a 90–120 second storyboard, voice-over, on-screen captions, recording checklist, and the GitHub video embed format. Upload the final MP4 to GitHub and paste its generated asset URL here:
+
+```md
+https://github.com/Rohi56u/COGNI-VANTA/assets/REPLACE_WITH_VIDEO_ASSET_ID
+```
+
+The recommended demo flow is: **upload notes → generate a concept graph → inspect relationships → complete active recall → explore a subject world → start a Focus Sprint → review progress**.
+
 ## Repository layout
 
 ```text
@@ -54,7 +67,8 @@ flowchart LR
 ├── design/              # UX flow and product design notes
 ├── docker-compose.yml   # Local multi-service orchestration
 ├── PROJECT_MANIFEST.md  # Service inventory
-└── PRODUCT_UPGRADE.md   # Product identity and roadmap
+├── PRODUCT_UPGRADE.md   # Product identity and roadmap
+└── docs/DEMO_WALKTHROUGH.md # Demo storyboard and recording guide
 ```
 
 ## Quick start
@@ -149,7 +163,7 @@ Never commit `.env` files, API keys, JWT secrets, user uploads, SQLite databases
 
 ## License
 
-A license has not been declared in the supplied project. Add an explicit license before distributing Cognivanta as an open-source project.
+Cognivanta is released under the [MIT License](LICENSE). See the license file for the complete terms.
 
 ## Topics
 
